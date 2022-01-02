@@ -1,7 +1,7 @@
 {
   "name": "javascript-spa",
   "version": "1.0.0",
-  "description": "Example of developpement of Single-Page Application in Vanilla JS",
+  "description": "Example of a Single-Page Application developed in Vanilla JS",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

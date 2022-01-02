@@ -12,21 +12,21 @@ Le but n'est pas de fournir publiquement un _modèle_ ou un _template_ intégrab
 ---
 
 ## Sommaire 
-0. [0 - Présentation](#0---presentation)
-    * [0.0 - Objectifs](#0.0---objectifs)
-    * [0.1 - Évolution](#0.1---evolution)
-    * [0.2 - Utilisation](#0.3---utilisation)
-1. [1 - Démarrage](#1---demarrage)
-    * [1.0 - Prérequis](#1.0---prerequis)
-    * [1.1 - Configuration](#1.1---configuration)
-2. [2 - Structure](#2---structure)
-    * [2.0 - Architecture SEO](#2.0---architecture-seo)
-    * [2.1 - Dossiers et fichiers](#2.1---dossiers-et-fichiers)
-    * [2.2 - Base de données](#2.2---base-de-donnees)
-3. [3 - Méthodologie](#3---methodologie)
-    * [3.0 - Développement](#3.0---developpement)
-    * [3.1 - Optimisation](#3.1---optimisation)
-4. [4 - Remarques](#4---remarques)
+0. [Présentation](#0---presentation)
+    0. [Objectifs](#00---objectifs)
+    1. [Évolution](#01---évolution)
+    2. [Utilisation](#03---utilisation)
+1. [Démarrage](#1---démarrage)
+    0. [Prérequis](#10---prérequis)
+    1. [Configuration](#11---configuration)
+2. [Structure](#2---structure)
+    0. [Architecture SEO](#20---architecture-seo)
+    1. [Dossiers et fichiers](#21---dossiers-et-fichiers)
+    2. [Base de données](#22---base-de-données)
+3. [Méthodologie](#3---méthodologie)
+    0. [Développement](#30---développement)
+    1. [Optimisation](#31---optimisation)
+4. [Remarques](#4---remarques)
 
 ---
 
@@ -49,7 +49,7 @@ Il n'y a pas de thématique particulière, mais uniquement le résultat des appe
 2. [WeatherStack](https://weatherstack.com/) pour les données météo. Une clé d'authentification est requise. Pour utiliser ce projet, il faudra inscrire cette clé dans le fichier `js/lib/_tokens.js`
 
 
-### 0.2 - Evolution
+### 0.2 - Évolution
 
 Sauf un quelconque défaut laissé par mégarde, ce projet ne doit pas évoluer vers une modélisation plus avancée. Il constitue **une ressource pédagogique** de base destinée à l'apprentissage de concepts parfois obscurs pour des néophytes.
 
@@ -98,13 +98,13 @@ export const ACCESS_KEY = {
 
 * Paragraphes :: `/`
 * Météo par ville :: `/weather-by-city`
-* Météo par géolocalisation :: `/weather-by-location`
+* Météo géolocalisée :: `/weather-by-location`
 * Informations :: `/info`
 
 
 #### Schéma
 
-![Diagram of website structure](/assets/architecture_seo.jpg)
+![Website Tree](/assets/fig/architecture_seo.jpg)
 
 
 ### 2.1 - Dossiers et fichiers

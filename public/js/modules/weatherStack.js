@@ -28,9 +28,9 @@ class WeatherStack {
         let url = ``;
         if (Array.isArray(query) && query.length) {
             query = query.join(",");
-            url = ENV.type === 'production' && this.ACCESS_KEY ? `http://api.weatherstack.com/current?access_key=${this.ACCESS_KEY}&query=${query}`:`http://localhost:5500/data/weather-stack/weather-data-bruxelles.json`;
+            url = ENV.mode() === 'production' && this.ACCESS_KEY ? `http://api.weatherstack.com/current?access_key=${this.ACCESS_KEY}&query=${query}`:`http://localhost:5500/data/weather-stack/weather-data-bruxelles.json`;
         } else {
-            url = ENV.type === 'production'  && this.ACCESS_KEY ? `http://api.weatherstack.com/current?access_key=${this.ACCESS_KEY}&query=${query}`:`http://localhost:5500/data/weather-stack/weather-data-${query}.json`;
+            url = ENV.mode() === 'production'  && this.ACCESS_KEY ? `http://api.weatherstack.com/current?access_key=${this.ACCESS_KEY}&query=${query}`:`http://localhost:5500/data/weather-stack/weather-data-${query}.json`;
         }
         return fetch(url).then(res => res.json()).catch(err => err);
     }

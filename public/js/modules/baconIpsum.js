@@ -39,7 +39,7 @@ class BaconIpsum {
      */
     async getData(){
         // 
-        let url = ENV.mode === 'production' ? `https://baconipsum.com/api/?type=meat-and-filler&paras=${this._qty}`:`http://localhost:5500/data/bacon-ipsum/bacon-data-8.json`;
+        let url = ENV.mode() === 'production' ? `https://baconipsum.com/api/?type=meat-and-filler&paras=${this._qty}`:`http://localhost:5500/data/bacon-ipsum/bacon-data-8.json`;
 
         return fetch(url).then(res => res.json()).catch(err => err);
     }
