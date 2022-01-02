@@ -1,0 +1,15 @@
+{
+  "name": "javascript-spa",
+  "version": "1.0.0",
+  "description": "Example of developpement of Single-Page Application in Vanilla JS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "JavaScript", 
+    "Single-Page Application"
+  ],
+  "author": "Elodie Bayet",
+  "license": "ISC"
+}
