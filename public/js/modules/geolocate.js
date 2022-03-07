@@ -28,8 +28,7 @@ class Geolocate {
      */
     async enable(){
         
-        // Limit DOM query to one
-        if (this._trigger === undefined) this._trigger = document.querySelector('#geolocation button');
+        this._trigger = document.querySelector('#geolocation button');
 
         this._trigger.addEventListener('click', evt => {
             evt.preventDefault();

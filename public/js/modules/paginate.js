@@ -65,10 +65,12 @@ class Paginate {
     async enable() {
 
         // Limit DOM query to one
-        if (this._anchors === undefined) this._anchors = document.querySelectorAll('#pagination a');
+        this._anchors = document.querySelectorAll('#pagination a');
 
         this._anchors.forEach( anchor => {
-            if ((anchor.textContent.trim() - 1) === this._index) anchor.classList.add('selected');
+            
+            if (Number(anchor.textContent.trim()) === this._index / this._itemsPage + 1) anchor.classList.add('selected');
+            
             anchor.addEventListener('click', this.handlePagination);
         });
     }

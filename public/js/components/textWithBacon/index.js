@@ -20,8 +20,8 @@ class TextWithBacon extends Page {
     constructor(baconipsum, paginate) {
         super();
         // Modules
-        this._bacon = new baconipsum;
-        this._paginate = new paginate;
+        this._bacon = baconipsum;
+        this._paginate = paginate;
 
         // Static values
         this.title = `API de faux paragraphes`;
@@ -46,8 +46,8 @@ class TextWithBacon extends Page {
     }
 
     async enable() {
-        // Limit DOM query to one
-        if (this._paras === undefined) this._paras = document.querySelector('#paras');
+
+        this._paras = document.querySelector('#paras');
 
         // Bindind Events with module
         await this._paginate.enable();
@@ -62,4 +62,4 @@ class TextWithBacon extends Page {
     }
 }
 
-export default new TextWithBacon(BaconIpsum, Paginate);
+export default new TextWithBacon(new BaconIpsum, new Paginate);

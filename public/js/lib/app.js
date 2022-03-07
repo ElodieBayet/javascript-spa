@@ -52,11 +52,11 @@ class App {
      * @requires ROUTES constant in /js/constants.js
      */
     component = async () => {
-        const Page = await this._router.getComponent(ROUTES);
-        this.setTitle = Page.title;
-        this.setDesc = Page.desc;
-        this.setContent = await Page.render();
-        Page.enable();
+        const page = await this._router.getComponent(ROUTES);
+        this.setTitle = page.title;
+        this.setDesc = page.desc;
+        this.setContent = await page.render();
+        page.enable();
     }
 }
 

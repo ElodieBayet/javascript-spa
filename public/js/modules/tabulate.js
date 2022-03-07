@@ -61,8 +61,7 @@ class Tabulate {
      */
     async enable() {
         
-        // Limit DOM query to one
-        if (this._tabs === undefined) this._tabs = document.querySelectorAll('#tabulation button');
+        this._tabs = document.querySelectorAll('#tabulation button');
 
         this._tabs.forEach( tab => {
             tab.addEventListener('click', this.handlePagination);

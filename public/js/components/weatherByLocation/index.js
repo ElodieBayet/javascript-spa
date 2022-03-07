@@ -41,8 +41,8 @@ class WeatherByLocation extends Page {
     }
 
     async enable() {
-        // Limit DOM query to one
-        if (this._weather === undefined) this._weather = document.querySelector('#weather');
+        
+        this._weather = document.querySelector('#weather');
         
         // Bindind Events with module
         await this._geolocate.enable();
