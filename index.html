@@ -3,24 +3,97 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Page racine | JavaScript SPA</title>
+        <title>Démo | JavaScript SPA</title>
     <!-- Styles -->
-        <link href="./public/css/base-min.css" rel="stylesheet" type="text/css" media="screen">
-        <link href="./public/css/components-min.css" rel="stylesheet" type="text/css" media="screen">
-        <link href="./public/css/theme-min.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="https://demo.elodiebayet.com/neptune/assets/css/common.css" rel="stylesheet" type="text/css" media="screen">
+	    <link href="https://demo.elodiebayet.com/neptune/assets/css/theme.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="./assets/css/jssap.css" rel="stylesheet" type="text/css" media="screen">
     <!-- Identity and parameters -->
         <meta name="description" content="Exemple de développement SPA en JavaScript">
         <meta name="author" content="Elodie Bayet, www.elodiebayet.com">
-        <meta name="copyright" content="Elodie Bayet © 2021">
+        <meta name="copyright" content="Elodie Bayet © 2025">
         <meta name="theme-color" content="#242428">
-        <link href="" rel="manifest" type="application/manifest+json">
-        <link href="./assets/trademark/javascriptspa_favicon.png" rel="icon" type="image/png">
-        <!--[if IE]><link href="./assets/trademark/javascriptspa_favicon.ico" rel="shortcut icon" type="image/x-icon" /><![endif]-->
+        <link href="https://www.elodiebayet.com/shared/trademark/elodie_bayet_side_favicon.png" rel="icon" type="image/png">
     <!-- Scripts -->
-        <script defer src="./public/js/constants.js"></script>
-        <script type="module" src="./public/js/main.js"></script>
+        <script type="module" src="./src/main.js"></script>
     </head>
     <body>
-        <!-- Implementation of Application here -->
+        <header id="uihead" class="closed">
+            <div class="inner">
+                <div class="headline">
+                    <a href="#/" class="applogo" title="Retourner à l'accueil du site">
+                        <span class="icon"><img src="https://www.elodiebayet.com/shared/trademark/elodie_bayet_side_icon_wt.svg" alt=""></span>
+                        <span class="title" aria-hidden="true">JavaScript SPA</span>
+                    </a>
+                    <p>Exemple de développement SPA en JavaScript</p>
+                </div>
+                <div class="navigation">
+                    <nav class="mainmenu">
+                        <h3 class="blind">Menu principal</h3>
+                        <ul data-component="mainmenu">
+                            <li>
+                                <a href="/" class="selected">Défault</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="edge">&nbsp;</div>
+            <div class="edge">&nbsp;</div>
+            <button type="button"><span class="blind">Ouvrir le menu</span></button>
+        </header>
+        <main>
+            <header>
+                <h1>JavaScript SPA</h1>
+                <p>Support adragogique sur la programmation en JavaScript.</p>
+                <a href="https://github.com/ElodieBayet/javascript-spa" class="tab url"><span class="github">&nbsp;</span>Voir le projet sur GitHub</a>
+            </header>
+            <noscript><strong>Le JavaScript n'est pas activé&nbsp;::</strong> Ce projet n'est pas fonctionnel en l'état.</noscript>
+            <div data-component="content">
+                <!-- Content by default : SEO reading -->
+                <section>
+                    <h2>Présentation</h2>
+                    <p>Ce projet sert d'exemple de développement en JavaScript à travers l'architecture <strong>Single-Page-Application</strong> et le paradigme <strong>Orienté Objet</strong>.</p>
+                    <h3>Objectifs andragogiques</h3>
+                    <ul class="list">
+                        <li>Résoudre un système de routage en JavaScript</li>
+                        <li>Respecter le pattern <em>Single-Page</em></li>
+                        <li>Exploiter les appels vers des APIs</li>
+                        <li>Se préparer à l'utilisation du TypeScript</li>
+                        <li>Se préprarer à l'apprentissage d'un Framework professionnel comme Angular</li>
+                    </ul>
+                    <h3>Exploitation</h3>
+                    <p>Ce projet peut être utilisé dans un cadre d'apprentissage individuel et privé. Il ne convient pas pour une utilisation publique ou professionnelle.</p>
+                </section>
+            </div>
+        </main>
+        <footer id="uifoot">
+            <div class="headline">
+                <div>
+                    <a href="#/" class="applogo" title="Retourner à l'accueil du site">
+                        <span class="icon"><img src="https://www.elodiebayet.com/shared/trademark/elodie_bayet_side_icon_wt.svg" alt=""></span>
+                        <span class="title" aria-hidden="true">JavaScript SPA</span>
+                    </a>
+                    <p>Exemple de développement SPA en JavaScript</p>
+                </div>
+                <nav class="secondmenu">
+                    <h3 class="blind">Menu scondaire</h3>
+                    <ul data-component="secondmenu">
+                        <li>
+                            <a href="/">Autre</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="author">
+                <p>
+					<span>JS &amp; SPA</span> &copy; 2021-2025 &mdash; Tous droits réservés &mdash; v.2.0 &mdash;</span>
+					<a href="https://www.elodiebayet.com" title="Voir le site" target="_blank" rel="noopener">
+						Développé par Elodie Bayet&nbsp;
+						<img src="https://www.elodiebayet.com/shared/trademark/elodie_bayet_icon_wt.svg" alt="Icône du Logo de Elodie Bayet représentant une plume stylisée dans un cercle épais">
+					</a>
+                </p>
+            </div>
+        </footer>
     </body>
 </html>

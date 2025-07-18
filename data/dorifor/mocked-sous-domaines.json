@@ -1,0 +1,414 @@
+{
+    "data": [
+        {
+            "title": "Alphabétisation",
+            "id": 3,
+            "domaine": "/dorifor/api/domaines/8"
+        },
+        {
+            "title": "Animation",
+            "id": 4,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Animaux",
+            "id": 5,
+            "domaine": "/dorifor/api/domaines/11"
+        },
+        {
+            "title": "Architecture Immobilier Urbanisme",
+            "id": 7,
+            "domaine": "/dorifor/api/domaines/14"
+        },
+        {
+            "title": "Images et arts plastiques",
+            "id": 10,
+            "domaine": "/dorifor/api/domaines/4"
+        },
+        {
+            "title": "Techniques de diffusion",
+            "id": 12,
+            "domaine": "/dorifor/api/domaines/7"
+        },
+        {
+            "title": "Construction et Éco-construction",
+            "id": 18,
+            "domaine": "/dorifor/api/domaines/14"
+        },
+        {
+            "title": "Accueil Secrétariat",
+            "id": 20,
+            "domaine": "/dorifor/api/domaines/1"
+        },
+        {
+            "title": "Chimie Biologie Physique",
+            "id": 21,
+            "domaine": "/dorifor/api/domaines/16"
+        },
+        {
+            "title": "Journalisme et communication",
+            "id": 25,
+            "domaine": "/dorifor/api/domaines/7"
+        },
+        {
+            "title": "Comptabilité Finance Fiscalité",
+            "id": 26,
+            "domaine": "/dorifor/api/domaines/1"
+        },
+        {
+            "title": "Constructions métalliques",
+            "id": 27,
+            "domaine": "/dorifor/api/domaines/26"
+        },
+        {
+            "title": "Coopération au développement",
+            "id": 28,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Création d'entreprise",
+            "id": 29,
+            "domaine": "/dorifor/api/domaines/1"
+        },
+        {
+            "title": "Agriculture Horticulture",
+            "id": 30,
+            "domaine": "/dorifor/api/domaines/11"
+        },
+        {
+            "title": "Aménagement d'intérieur et Design",
+            "id": 31,
+            "domaine": "/dorifor/api/domaines/28"
+        },
+        {
+            "title": "Droit Assurances",
+            "id": 33,
+            "domaine": "/dorifor/api/domaines/1"
+        },
+        {
+            "title": "Environnement",
+            "id": 34,
+            "domaine": "/dorifor/api/domaines/11"
+        },
+        {
+            "title": "Électricité",
+            "id": 35,
+            "domaine": "/dorifor/api/domaines/14"
+        },
+        {
+            "title": "Électromécanique Mécanique Usinage",
+            "id": 36,
+            "domaine": "/dorifor/api/domaines/26"
+        },
+        {
+            "title": "Électronique",
+            "id": 37,
+            "domaine": "/dorifor/api/domaines/26"
+        },
+        {
+            "title": "Énergie",
+            "id": 38,
+            "domaine": "/dorifor/api/domaines/14"
+        },
+        {
+            "title": "Nettoyage en entreprise",
+            "id": 39,
+            "domaine": "/dorifor/api/domaines/27"
+        },
+        {
+            "title": "Gardiennage",
+            "id": 43,
+            "domaine": "/dorifor/api/domaines/12"
+        },
+        {
+            "title": "Management d'entreprise",
+            "id": 44,
+            "domaine": "/dorifor/api/domaines/1"
+        },
+        {
+            "title": "Gestion de la production, de la qualité et de la logistique",
+            "id": 46,
+            "domaine": "/dorifor/api/domaines/1"
+        },
+        {
+            "title": "Habillement Confection",
+            "id": 49,
+            "domaine": "/dorifor/api/domaines/5"
+        },
+        {
+            "title": "Antiquité Histoire de l'art",
+            "id": 51,
+            "domaine": "/dorifor/api/domaines/28"
+        },
+        {
+            "title": "Restauration",
+            "id": 52,
+            "domaine": "/dorifor/api/domaines/6"
+        },
+        {
+            "title": "Industrie graphique",
+            "id": 55,
+            "domaine": "/dorifor/api/domaines/9"
+        },
+        {
+            "title": "Bureau d'études Dessin technique",
+            "id": 58,
+            "domaine": "/dorifor/api/domaines/14"
+        },
+        {
+            "title": "Bureautique et internet",
+            "id": 60,
+            "domaine": "/dorifor/api/domaines/29"
+        },
+        {
+            "title": "Digital media",
+            "id": 61,
+            "domaine": "/dorifor/api/domaines/9"
+        },
+        {
+            "title": "Réseaux Maintenance Télécom",
+            "id": 65,
+            "domaine": "/dorifor/api/domaines/9"
+        },
+        {
+            "title": "Informatique",
+            "id": 67,
+            "domaine": "/dorifor/api/domaines/9"
+        },
+        {
+            "title": "Autres langues",
+            "id": 70,
+            "domaine": "/dorifor/api/domaines/10"
+        },
+        {
+            "title": "Jurys et examens",
+            "id": 71,
+            "domaine": "/dorifor/api/domaines/30"
+        },
+        {
+            "title": "Formation de base",
+            "id": 72,
+            "domaine": "/dorifor/api/domaines/8"
+        },
+        {
+            "title": "Interprétariat Traduction",
+            "id": 73,
+            "domaine": "/dorifor/api/domaines/7"
+        },
+        {
+            "title": "Marketing Publicité",
+            "id": 78,
+            "domaine": "/dorifor/api/domaines/7"
+        },
+        {
+            "title": "Techniques véhicules",
+            "id": 79,
+            "domaine": "/dorifor/api/domaines/24"
+        },
+        {
+            "title": "Pédagogie",
+            "id": 83,
+            "domaine": "/dorifor/api/domaines/3"
+        },
+        {
+            "title": "Secourisme",
+            "id": 87,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Préparation à l'enseignement supérieur Propédeutique",
+            "id": 88,
+            "domaine": "/dorifor/api/domaines/8"
+        },
+        {
+            "title": "Rééducation Prothèse",
+            "id": 91,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Relations publiques",
+            "id": 92,
+            "domaine": "/dorifor/api/domaines/7"
+        },
+        {
+            "title": "Ressources humaines et sélection",
+            "id": 95,
+            "domaine": "/dorifor/api/domaines/1"
+        },
+        {
+            "title": "Santé Nutrition",
+            "id": 96,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Administration publique",
+            "id": 99,
+            "domaine": "/dorifor/api/domaines/1"
+        },
+        {
+            "title": "Hygiène Prévention",
+            "id": 100,
+            "domaine": "/dorifor/api/domaines/12"
+        },
+        {
+            "title": "Services d'accompagnement",
+            "id": 101,
+            "domaine": "/dorifor/api/domaines/30"
+        },
+        {
+            "title": "Aide aux personnes",
+            "id": 102,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Soins infirmiers et hospitaliers",
+            "id": 104,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Musique",
+            "id": 109,
+            "domaine": "/dorifor/api/domaines/4"
+        },
+        {
+            "title": "Arts du spectacle",
+            "id": 110,
+            "domaine": "/dorifor/api/domaines/4"
+        },
+        {
+            "title": "Sport",
+            "id": 111,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Psychologie",
+            "id": 112,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Techniques d'expression orale et écrite",
+            "id": 113,
+            "domaine": "/dorifor/api/domaines/29"
+        },
+        {
+            "title": "Techniques d'organisation Gestion de projet",
+            "id": 114,
+            "domaine": "/dorifor/api/domaines/29"
+        },
+        {
+            "title": "Tourisme",
+            "id": 115,
+            "domaine": "/dorifor/api/domaines/21"
+        },
+        {
+            "title": "Transport et logistique",
+            "id": 116,
+            "domaine": "/dorifor/api/domaines/15"
+        },
+        {
+            "title": "Vente",
+            "id": 117,
+            "domaine": "/dorifor/api/domaines/25"
+        },
+        {
+            "title": "Armée Police",
+            "id": 135,
+            "domaine": "/dorifor/api/domaines/12"
+        },
+        {
+            "title": "Sciences sociales",
+            "id": 137,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Artisanat",
+            "id": 138,
+            "domaine": "/dorifor/api/domaines/28"
+        },
+        {
+            "title": "Bien-être Beauté",
+            "id": 141,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Petite enfance",
+            "id": 144,
+            "domaine": "/dorifor/api/domaines/13"
+        },
+        {
+            "title": "Préparation aux jurys de l'enseignement secondaire",
+            "id": 151,
+            "domaine": "/dorifor/api/domaines/8"
+        },
+        {
+            "title": "Anglais",
+            "id": 153,
+            "domaine": "/dorifor/api/domaines/10"
+        },
+        {
+            "title": "Français",
+            "id": 154,
+            "domaine": "/dorifor/api/domaines/10"
+        },
+        {
+            "title": "Néerlandais",
+            "id": 155,
+            "domaine": "/dorifor/api/domaines/10"
+        },
+        {
+            "title": "Orientation professionnelle généraliste",
+            "id": 156,
+            "domaine": "/dorifor/api/domaines/17"
+        },
+        {
+            "title": "Orientation professionnelle ciblée métier Découverte de métiers",
+            "id": 157,
+            "domaine": "/dorifor/api/domaines/17"
+        },
+        {
+            "title": "Achat",
+            "id": 158,
+            "domaine": "/dorifor/api/domaines/25"
+        },
+        {
+            "title": "Hôtellerie",
+            "id": 159,
+            "domaine": "/dorifor/api/domaines/6"
+        },
+        {
+            "title": "Métiers de bouche",
+            "id": 160,
+            "domaine": "/dorifor/api/domaines/18"
+        },
+        {
+            "title": "Alimentation Industries agro-alimentaires",
+            "id": 161,
+            "domaine": "/dorifor/api/domaines/18"
+        },
+        {
+            "title": "Événementiel",
+            "id": 162,
+            "domaine": "/dorifor/api/domaines/21"
+        },
+        {
+            "title": "Mobilité urbaine",
+            "id": 163,
+            "domaine": "/dorifor/api/domaines/24"
+        },
+        {
+            "title": "Éducation",
+            "id": 164,
+            "domaine": "/dorifor/api/domaines/3"
+        },
+        {
+            "title": "Développement personnel",
+            "id": 165,
+            "domaine": "/dorifor/api/domaines/29"
+        },
+        {
+            "title": "Commerce international",
+            "id": 166,
+            "domaine": "/dorifor/api/domaines/25"
+        }
+    ]
+}

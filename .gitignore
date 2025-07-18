@@ -1,7 +1,15 @@
 # Folders
 .vscode/
 _notes/
+src/security/
 
 # Files
-*.log
 Thumbs.db
+*.log
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+src/environments/environment.js

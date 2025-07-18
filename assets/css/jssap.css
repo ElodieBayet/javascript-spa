@@ -1,0 +1,45 @@
+/* 
+	Adjusments over Neptune
+*/
+
+.applogo .icon {
+    margin-left: -18px;
+    width: 36px;
+}
+.applogo .title {
+    font-size: 2.7rem;
+    line-height: 5.8rem;
+}
+main header p {
+    margin-top: 12px;
+}
+main header a.tab {
+    margin-top: 6px;
+    margin-right: 0;
+}
+form select {
+    padding: 7px 8px;
+    margin-left: 12px;
+	display: inline-block;
+    color: rgb(240, 240, 242);
+	background-color: rgb(36, 36, 40);
+	border: 1px solid rgb(18, 190, 213);
+	border-radius: 2px;
+}
+form input[type="button"] {
+    text-transform: uppercase;
+	padding: 3px 18px;
+	display: block;
+    color: var(--fontcolor);
+	background-color: rgb(36, 36, 40);
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgb(18, 190, 213);
+	border-radius: 2px;
+}
+form input[type="button"]:hover {
+    color: rgb(240, 240, 242);
+	background-color: rgb(60, 60, 66);
+    border-color: rgb(36, 213, 237);
+    cursor: pointer;
+}
