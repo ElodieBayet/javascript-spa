@@ -67,7 +67,7 @@ class AboutComponent extends Component {
         <section>
             <h2>Thématique</h2>
             <p><span class="light">En bref :</span> (en cours de rédaction)</p>
-            <h3>Interface de programmation d'interface <span class="light">&mdash; API</span></h3>
+            <h3>Interface de programmation d'application <span class="light">&mdash; API</span></h3>
             <div class="columns">
             <p>En cours de rédaction : Voir la théorie du cours.</p>
             </div>
