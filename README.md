@@ -19,7 +19,7 @@ Ce projet est un support de cours qui sert d'exemple de développement en JavaSc
 - Respecter l'implémentation _Single-Page_
 - Consommer des APIs en asyncrone
 - Se préparer à l'utilisation du TypeScript
-- Se préprarer à l'apprentissage d'un Framework professionnel comme Vue.js
+- Se préparer à l'apprentissage d'un Framework professionnel comme Vue.js
 
 
 ### Exploitation
