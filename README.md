@@ -4,6 +4,7 @@ Version | Objectif | Cadre | Démo
 ------- | -------- | ----- | ----
 2.0 | Andragogie | Labo JavaScript | [JavaScript & SPA](https://demo.elodiebayet.com/javascript-spa)
 
+Reupload et correction du support 'JavaScript & SPA' daté de décembre 2019.
 
 ---
 
@@ -22,6 +23,16 @@ Ce projet est un support de cours qui sert d'exemple de développement en JavaSc
 - Se préparer à l'apprentissage d'un Framework professionnel comme Vue.js
 
 
+### Prérequis
+
+Cours 
+0. "Informatique général" 
+1. "Algorithmique"
+2. "Programmation JavaScript"
+3. "Orienté Objet/Prototype en JavaScript"
+4. "Conception d'API REST"
+
+
 ### Exploitation
 
 Ce projet peut être utilisé dans un cadre d'apprentissage individuel et privé. Il ne convient pas pour une utilisation publique ou professionnelle.
@@ -35,13 +46,7 @@ Ce projet peut être utilisé dans un cadre d'apprentissage individuel et privé
 
 ### Sitemap
 
-```sh
-├── "Accueil"
-├── "Weatherstack API"
-├── "Dorifor API"
-├── "À propos"
-├── "Conception"
-```
+![Architecture SEO](https://demo.elodiebayet.com/javascript-spa/assets/img/architecture_seo.jpg)
 
 
 ---
