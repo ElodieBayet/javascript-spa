@@ -1,8 +1,8 @@
 # **JavaScript & SPA**
 
-Version | Objectif | Cadre | Démo
-------- | -------- | ----- | ----
-2.0 | Andragogie | Labo JavaScript | [JavaScript & SPA](https://demo.elodiebayet.com/javascript-spa)
+Version | Objectif | Domaine | Cadre | Démo
+------- | -------- | ------- | ----- | ----
+2.0 | Andragogie | Programmation | Laboratoire | [JavaScript & SPA](https://demo.elodiebayet.com/javascript-spa)
 
 Reupload et correction du support 'JavaScript & SPA' daté de décembre 2019.
 
@@ -20,13 +20,13 @@ Ce projet est un support de cours qui sert d'exemple de développement en JavaSc
 - Respecter l'implémentation _Single-Page_
 - Consommer des APIs en asyncrone
 - Se préparer à l'utilisation du TypeScript
-- Se préparer à l'apprentissage d'un Framework professionnel comme Vue.js
+- Se préparer à l'apprentissage d'un Framework professionnel comme Angular
 
 
 ### Prérequis
 
 Cours 
-0. "Informatique général" 
+0. "Informatique" 
 1. "Algorithmique"
 2. "Programmation JavaScript"
 3. "Orienté Objet/Prototype en JavaScript"
@@ -84,7 +84,7 @@ export const tokens = {
 };
 ```
 
-**Attention** : ne divulguez jamais vos clés d'API publiquement.
+⚠️ **Attention** : ne divulguez jamais vos clés d'API publiquement.
 
 ---
 
