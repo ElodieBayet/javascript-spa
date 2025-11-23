@@ -30,31 +30,31 @@ class AboutComponent extends Component {
                     <h3>Développement</h3>
                     <div class="grid sm">
                         <div class="col-33 badge">
-                            <div class="icon"><img src="https://www.elodiebayet.com/store/icons/icon_js.svg" alt=""></div>
+                            <div class="icon"><img src="https://www.elodiebayet.com/assets/icons/icon_js.svg" alt=""></div>
                             <div class="title">
                                 <p>JavaScript</p>
                             </div>
                         </div>
                         <div class="col-33 badge">
-                            <div class="icon"><img src="https://www.elodiebayet.com/store/icons/icon_ajax.svg" alt=""></div>
+                            <div class="icon"><img src="https://www.elodiebayet.com/assets/icons/icon_ajax.svg" alt=""></div>
                             <div class="title">
                                 <p>AJAX</p>
                             </div>
                         </div>
                         <div class="col-33 badge">
-                            <div class="icon"><img src="https://www.elodiebayet.com/store/icons/icon_json.svg" alt=""></div>
+                            <div class="icon"><img src="https://www.elodiebayet.com/assets/icons/icon_json.svg" alt=""></div>
                             <div class="title">
                                 <p>JSon</p>
                             </div>
                         </div>
                         <div class="col-33 badge">
-                            <div class="icon"><img src="https://www.elodiebayet.com/store/icons/icon_html.svg" alt=""></div>
+                            <div class="icon"><img src="https://www.elodiebayet.com/assets/icons/icon_html.svg" alt=""></div>
                             <div class="title">
                                 <p>HTML 5</p>
                             </div>
                         </div>
                         <div class="col-33 badge">
-                            <div class="icon"><img src="https://www.elodiebayet.com/store/icons/icon_git.svg" alt=""></div>
+                            <div class="icon"><img src="https://www.elodiebayet.com/assets/icons/icon_git.svg" alt=""></div>
                             <div class="title">
                                 <p>Git</p>
                             </div>
